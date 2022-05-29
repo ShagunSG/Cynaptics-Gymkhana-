@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+}
+.btn{
+    background-color:darkblue;
+    border:black;
+    border-radius: 12px;
+    border-width: thick;
+    color:rgb(206, 218, 238);
+    padding: 5px 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:white ;
+    color: black;
+}
+.club-name{
+    text-align: left;
+    color:whitesmoke;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.contact {
+    color: ghostwhite;
+    font-family: 'abril', fat face  ;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.copyright{
+    margin: 10px ;
+}
+.event-desc{
+    padding-top: 10px;
+}
+.event-team{
+    align-self: left;
+    text-align: center;
+    height: 300px;
+    width: 33%;
+    background-color:#79DAE8 ;
+    font-size: 25px;
+    color: white;
+    border: black;
+    border-style: solid;
+    position: relative;
+    margin-top: 26px;
+}
+.footer {
+    background-color: darkblue; 
+    padding: 50px 0 20px;
+}
+.internal-links:link{
+    color: whitesmoke;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.internal-links:hover{
+    color: azure;
+    text-decoration: none;
+}
+.internal-links::after{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.links {
+    text-align: left;
+    margin-left: 20px;
+}
+.logo{
+    float: left;
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+.our-teams{
+    background-color: #242F9B;
+    color: #DBDFFD;
+    font-size: 35px;
+    position: absolute;
+}
+.outreach-team{
+    text-align: center;
+    height: 300px;
+    width: 34%;
+    background-color:#79DAE8 ;
+    font-size: 25px;
+    color: white;
+    border: black;
+    border-style: solid;
+    float: left;
+    border: black;
+    border-style: solid;
+    margin-top: 26px;
+}
+.project-team{
+    text-align: center;
+    height: 300px;
+    width: 33%;
+    background-color:#79DAE8 ;
+    font-size: 25px;
+    color: white;
+    margin-left: 33%;
+    position: relative;
+    margin-top: 81px;
+    border: black;
+    border-style: solid;
+}
+#top-container {
+    background-color: #0AA1DD;
+    padding: 20px 90px 80px 10px;
+    height: 80px;
+    width: auto;
+}

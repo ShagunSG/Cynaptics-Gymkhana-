@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cynaptics Club</title>
+    <link rel="icon" href="/Images/favicon-16x16.png" />
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Orbitron&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="/CSS/slideshow.css" />
+    <script src="/Javascript/Slideshow.js"></script>
+  </head>
+  <body>
+    <div id="top-container">
+      <div class="club-name">
+        <img src="/Images/Copy of Cynaptics_logo.png" class="logo" />CYNAPTICS
+        CLUB
+      </div>
+      <div class="internal-links"> 
+        <a href="#top-container">Home</a>
+      </div>
+    </div>
+      <div class="second-container"><p>
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+                <img src="/Images/Cynaptics-meet-crop.jpeg" style="width:100%; height: 500px;" />
+                <div class="text">Our Online Meets</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="/Images/FYs-Cynaptics.jpeg" style="width: 100%; height: 500px;" />
+                <div class="text">Our New Recruits</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="/Images/Cynaptics_logo.png" style="width: 100%; height: 500px;" />
+                <div class="text">Caption Three</div>
+            </div>
+          </div>
+            <br />
+            <div style="text-align: center">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <script>
+              let slideIndex = 0;
+              showSlides();
+
+              function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                  slideIndex = 1;
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+              }
+            </script>
+          </div>
+      </p>
+      <div class="our-teams" id="teams">
+      <b><em>OUR TEAMS</em></b>
+      <div class="event-team">
+        <p>Event Team</p>
+        <p>
+          Our Event team looks after the organisation of all events we conduct. They are also responsible for the conduction of the 
+          monthly intra-club ML discussion sessions. 
+        </p>
+      </div>
+      </div>
+      <div class="project-team">
+        <p> Project Team</p>
+        <p>The Projects Team does all the project-related tasks and assists in providing the Problem Statements (PS) for various events. 
+        The team also maintains the Club's blog on various ML topics.</p>
+      </div>
+      <div class="outreach-team">
+        <p>Outreach Team</p>
+        <p>Outreach Team plays a key role in any external collaboration. They also maintain all social media handles of the club, 
+          including Instagram, Facebook, LinkedIn, Discord, YouTube.
+        </p>
+      </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="contact">Reach Us</p>
+      <p class="links">
+        <a href="https://www.facebook.com/Cynaptics-Club-IITI-107165658255439"
+          ><button class="btn">
+            <img
+              src="/Images/facebook-f-brands.svg"
+              height="18px"
+              width="8px"
+            />
+            Facebook
+          </button></a
+        >
+        <a href="mailto:cynaptics@iiti.ac.in">
+          <button class="btn">
+            <img
+              src="/Images/envelope-solid.svg"
+              height="18px"
+              width="12px"
+            />Mail Us
+          </button></a
+        >
+        <a
+          href="https://l.facebook.com/l.php?u=http%3A%2F%2Finstagram.com%2Fcynapticsclubiiti%3Ffbclid%3DIwAR31tI8VA6_e32VMWZHYHhJMAnFIElH04kdEDUh729RB80uHY6uVh9mMUFc&h=AT1JSslMzMSnvkTPu9ye1k0fnAn1Zt9r89VaOBLtP_GYaUJfwjVqmGL__fvhD79A49Y7hnUFlQn78lC5UDyjzjYOpU1Md5Wr9vYV-En5vJjccfnrCLwYDDv83jV_FwHIlYfQDA"
+          ><button class="btn">
+            <img
+              src="/Images/instagram-brands.svg"
+              height="18px"
+              width="10px"
+            />Instagram
+          </button></a
+        >
+      </p>
+      <p style="color: aliceblue" class="copyright">&copy; Cynaptics Club</p>
+    </div>
+  </body>
+</html>
