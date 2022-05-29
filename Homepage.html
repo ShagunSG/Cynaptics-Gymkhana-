@@ -16,13 +16,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="/CSS/slideshow.css" />
-    <script src="/Javascript/Slideshow.js"></script>
   </head>
   <body>
     <div id="top-container">
       <div class="club-name">
         <img src="/Images/Copy of Cynaptics_logo.png" class="logo" />CYNAPTICS
         CLUB
+        <br> AI takes over
       </div>
       <div class="internal-links">
         <a href="#top-container">
@@ -78,35 +78,26 @@
                 }
                 slides[slideIndex - 1].style.display = "block";
                 dots[slideIndex - 1].className += " active";
-                setTimeout(showSlides, 2000); // Change image every 2 seconds
+                setTimeout(showSlides, 2000); 
               }
             </script>
           </div>
       </p>
       <div class="our-teams" id="teams">
       <b><em>OUR TEAMS</em></b>
-      <div class="event-team">
-        <p>Event Team</p>
-        <p>
-          Our Event team looks after the organisation of all events we conduct. They are also responsible for the conduction of the 
-          monthly intra-club ML discussion sessions. 
-        </p>
-      </div>
-      </div>
-      <div class="project-team">
-        <p> Project Team</p>
-        <p>The Projects Team does all the project-related tasks and assists in providing the Problem Statements (PS) for various events. 
-        The team also maintains the Club's blog on various ML topics.</p>
-      </div>
-      <div class="outreach-team">
-        <p>Outreach Team</p>
-        <p>Outreach Team plays a key role in any external collaboration. They also maintain all social media handles of the club, 
-          including Instagram, Facebook, LinkedIn, Discord, YouTube.
-        </p>
-      </div>
+      <p><table><tr><td><u>Event Team</u></td>
+         <td><u>Project Team</u></td>
+         <td><u>Outreach Team</u></td></tr>
+        <tr><td> Event team looks after the organisation of all events we conduct. They are also responsible for the conduction of the 
+          monthly intra-club ML discussion sessions.</td>
+        <td>The Projects Team does all the project-related tasks and assists in providing the Problem Statements (PS) for various events. 
+          The team also maintains the Club's blog on various ML topics.</td>
+          <td>Outreach Team plays a key role in any external collaboration. They also maintain all social media handles of the club, 
+          including Instagram, Facebook, LinkedIn, Discord, YouTube.</td></tr>
+        </table></p>
       </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="contacts">
       <p class="contact">Reach Us</p>
       <p class="links">
         <a href="https://www.facebook.com/Cynaptics-Club-IITI-107165658255439"
@@ -136,8 +127,7 @@
               height="18px"
               width="10px"
             />Instagram
-          </button></a
-        >
+          </button></a>
       </p>
       <p style="color: aliceblue" class="copyright">&copy; Cynaptics Club</p>
     </div>
