@@ -1,1 +1,2 @@
 # Cynaptics-Gymkhana-
+The web page made for Cynaptics club includes HTML and CSS languages with a part of Javascript in the HTML code page. The tags used repetitively are the <div> tags, that enabled me to break parts of my webpage into smaller pieces for easier placement and access of the itmes in those divs. The hyperlinks have been used with button tags to make the web page more attarctive while still keeping it simple. The CSS styles have been used to easily manipulate the elements in the webpage as compared to HTML styling.
